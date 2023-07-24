@@ -1,1 +1,287 @@
-github 호스팅 확인
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>카카오 영입</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
+          <h1 class="tit_header">
+            <a class="link_logo" href="index.html"><img src="https://careers.kakao.com/images/renew/img_logo.png"
+                alt="카카오 영입" width="110"></a>
+          </h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">카카오 생활</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">크루 이야기</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">진행중 공고</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">지원안내</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">나의지원서</a>
+            </li>
+          </ul>
+        </div>
+        <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown2">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                로그인
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="kakaoContent" class="cont_job">
+    <div id="cMain">
+      <div id="mArticle">
+        <div class="wrap_recruit sub_recruit"><strong class="screen_out">직무 선택 메뉴</strong>
+          <ul id="jobTypeList" class="tab_job">
+            <li class="cursor_hand on"><span class="link_job"><span class="txt_tab">테크</span><span
+                  class="emph_num">3</span></span></li>
+            <li class="cursor_hand false"><span class="link_job"><span class="txt_tab">서비스비즈</span><span
+                  class="emph_num">13</span></span></li>
+            <li class="cursor_hand false"><span class="link_job"><span class="txt_tab">디자인/브랜드</span><span
+                  class="emph_num">4</span></span></li>
+            <li class="cursor_hand false"><span class="link_job"><span class="txt_tab">스태프</span><span
+                  class="emph_num">3</span></span></li>
+          </ul>
+          <div class="wrap_submenu">
+            <div class="inner_submenu">
+              <div class="box_select cursor_hand false"><strong class="screen_out">회사 정보</strong><em
+                  class="screen_out">선택내용</em><span class="link_selected">카카오<span class="ico_arr"></span></span><em
+                  class="screen_out">선택옵션</em>
+                <ul id="companySelect" class="list_opt screen_out">
+                  <li class="false"><span class="link_option"><span class="txt_option">전체</span></span></li>
+                  <li class="on"><span class="link_option"><span class="txt_option">카카오</span></span></li>
+                  <li class="false"><span class="link_option"><span class="txt_option">관계사</span></span></li>
+                  <li class="false"><span class="link_option"><span class="txt_option">관계사별 모아보기</span></span></li>
+                </ul>
+              </div>
+              <div class="box_select cursor_hand false"><strong class="screen_out">전체 직원유형</strong><em
+                  class="screen_out">선택내용</em><span class="link_selected">전체 직원유형<span class="ico_arr"></span></span><em
+                  class="screen_out">선택옵션</em>
+                <ul id="employeeTypeList" class="list_opt screen_out">
+                  <li class="on"><span class="link_option"><span class="txt_option">전체 직원유형</span></span></li>
+                  <li class="false"><span class="link_option"><span class="txt_option">정규직</span></span></li>
+                  <li class="false"><span class="link_option"><span class="txt_option">계약직</span></span></li>
+                  <li class="false"><span class="link_option"><span class="txt_option">인턴</span></span></li>
+                  <li class="false"><span class="link_option"><span class="txt_option">어시스턴트</span></span></li>
+                </ul>
+              </div>
+              <div class="wrap_search">
+                <div class="box_searchbar "><label for="noticeSearch" class="lab_search"></label><input
+                    type="text" class="tf_search" autocomplete="off" placeholder="검색어를 입력하세요." value=""><button
+                    type="button" id="searchBtn" class="btn_search ico_recruit"><span class="ir_wa">검색</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="searchTag wrap_tag"><strong class="screen_out">직군 태그</strong>
+            <p class="desc_tag">* 아래 관심 있는 #해시태그를 선택하시면, 해당 스킬셋과 관련된 공고를 확인하실 수 있습니다.</p>
+            <div class="area_tag"><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Android</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>iOS</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Windows</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Web front</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>DB</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Cloud</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>System</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Network</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Security</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Algorithm/ML</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Hadoop eco system</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Server</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>Statistics/Analysis</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>QA</span><span class="tag_group cursor_hand undefined"><span
+                  class="txt_hash">#</span>기타</span></div>
+          </div>
+          <ul class="list_jobs"><a href="/jobs/P-13108">
+              <li>
+                <div class="area_info">
+                  <div class="wrap_info"><span class="link_jobs cursor_hand">
+                      <h4 class="tit_jobs">데이터센터 운영 엔지니어</h4>
+                    </span>
+                    <dl class="list_info">
+                      <dt class="screen_out">영입마감일</dt>
+                      <dd>영입종료시</dd>
+                      <dt class="screen_out">근무지</dt>
+                    </dl>
+                    <div class="list_tag wrap_tag cursor_hand"><strong class="screen_out">직군 태그</strong><span
+                        class="link_tag cursor_hand undefined"><span class="txt_hash">#</span>기타</span></div>
+                  </div>
+                  <dl class="item_subinfo">
+                    <dt class="screen_out">회사정보</dt>
+                    <dd>카카오</dd>
+                  </dl>
+                  <dl class="item_subinfo">
+                    <dt class="screen_out">직원유형</dt>
+                    <dd>정규직</dd>
+                  </dl>
+                </div>
+              </li>
+            </a><a href="/jobs/P-13109">
+              <li>
+                <div class="area_info">
+                  <div class="wrap_info"><span class="link_jobs cursor_hand">
+                      <h4 class="tit_jobs">안산 데이터센터 설비 운영 엔지니어</h4>
+                    </span>
+                    <dl class="list_info">
+                      <dt class="screen_out">영입마감일</dt>
+                      <dd>영입종료시</dd>
+                      <dt class="screen_out">근무지</dt>
+                    </dl>
+                    <div class="list_tag wrap_tag cursor_hand"><strong class="screen_out">직군 태그</strong><span
+                        class="link_tag cursor_hand undefined"><span class="txt_hash">#</span>기타</span></div>
+                  </div>
+                  <dl class="item_subinfo">
+                    <dt class="screen_out">회사정보</dt>
+                    <dd>카카오</dd>
+                  </dl>
+                  <dl class="item_subinfo">
+                    <dt class="screen_out">직원유형</dt>
+                    <dd>정규직</dd>
+                  </dl>
+                </div>
+              </li>
+            </a><a href="/jobs/P-13120">
+              <li>
+                <div class="area_info">
+                  <div class="wrap_info"><span class="link_jobs cursor_hand">
+                      <h4 class="tit_jobs">IT거버넌스-위험관리 담당자</h4>
+                    </span>
+                    <dl class="list_info">
+                      <dt class="screen_out">영입마감일</dt>
+                      <dd>영입종료시</dd>
+                      <dt class="screen_out">근무지</dt>
+                    </dl>
+                    <div class="list_tag wrap_tag cursor_hand"><strong class="screen_out">직군 태그</strong><span
+                        class="link_tag cursor_hand undefined"><span class="txt_hash">#</span>기타</span></div>
+                  </div>
+                  <dl class="item_subinfo">
+                    <dt class="screen_out">회사정보</dt>
+                    <dd>카카오</dd>
+                  </dl>
+                  <dl class="item_subinfo">
+                    <dt class="screen_out">직원유형</dt>
+                    <dd>정규직</dd>
+                  </dl>
+                </div>
+              </li>
+            </a></ul>
+          <div class="paging_list"><span class="inner_pages inner_pages_v2"><span
+                class="change_page btn_fst btn_fst_v2"><span
+                  class="ico_recruit btn_fst_ico_recruit_v2">맨앞</span></span><span class="btn_prev btn_prev_v2"><span
+                  class="ico_recruit btn_prev_ico_recruit_v2">이전</span></span><span><span class="screen_out">현재
+                  페이지</span><em class="link_page link_page_v2" style="text-decoration: underline;">1</em></span><span
+                class="change_page"><span class="btn_next btn_next_v2"><span
+                    class="ico_recruit btn_next_ico_recruit_v2">다음</span></span></span><span
+                class="change_page btn_lst btn_lst_v2"><span
+                  class="ico_recruit btn_lst_ico_recruit_v2">맨뒤</span></span></span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="kakaoFoot" class="footer_career">
+    <h2 class="screen_out">서비스 이용 정보</h2>
+    <div class="inner_footer">
+      <strong class="tit_footer">카카오의 다양한 소식을 확인하세요</strong>
+      <em class="screen_out">소셜 페이지 목록</em>
+      <ul class="list_social">
+        <li>
+          <a href="https://pf.kakao.com/_rehCxd" rel="noreferrer" target="_blank" class="icons">
+            <img src="./free-icon-bubble-chat-6423597.png" alt="버블 채팅 아이콘" width="30"
+              title="버블 채팅 아이콘 제작자: muhammad atho' - Flaticon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/kakao_career/?hl=ko" rel="noreferrer" target="_blank" class="icons"><img
+              src="./free-icon-instagram-1077042.png" alt="인스 타 그램 아이콘" width="30"
+              title="인스 타 그램 아이콘 제작자: Freepik - Flaticon"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCBjvBJgIp3NGkrTBEfWBUVw" rel="noreferrer" target="_blank"
+            class="icons"><img src="./free-icon-youtube-152810.png" alt="비디오 아이콘" width="30"
+              title="비디오 아이콘 제작자: Freepik - Flaticon"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/kakaocorp" rel="noreferrer" target="_blank" class="icons"><img
+              src="./free-icon-linkedin-logo-49068.png" alt="링크드 인 로고 아이콘" width="25"
+              title="링크드 인 로고 아이콘  제작자: Freepik - Flaticon"></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/kakaocareers" rel="noreferrer" target="_blank" class="icons"><img
+              src="./free-icon-facebook-3128208.png" alt="페이스 북 아이콘" width="30"
+              title="페이스 북 아이콘  제작자: NajmunNahar - Flaticon"></a>
+        </li>
+      </ul>
+      <div class="area_info">
+        <div class="info_use">
+          <a href="https://www.kakaocorp.com/policy/privacyPolicy/corporateSitePrivacyPolicy" rel="noreferrer"
+            target="_blank" class="link_info">개인정보처리방침</a>
+          <a rel="noreferrer" class="link_info" href="/etc/agreement" target="_blank">이용약관</a>
+          <div class="wrap_select">
+            <button type="button" class="btn_toggle ico_jobs_af">
+              <span class="screen_out">언어선택</span>한국어
+            </button>
+            <div class="opt_box">
+              <a target="_blank" rel="noreferrer" class="item_opt en">English</a><a target="_blank" rel="noreferrer"
+                class="item_opt">한국어</a>
+            </div>
+          </div>
+          <small class="txt_copyright">© Kakao Corp. All rights reserved.</small>
+        </div>
+        <div class="info_relation wrap_select">
+          <button type="button" class="btn_toggle ico_jobs_af">관련사이트<span class="screen_out">모음</span></button>
+          <div class="opt_box">
+            <a href="https://www.kakaocorp.com/" target="_blank" rel="noreferrer" class="ico_jobs_af item_opt">카카오</a>
+            <a href="https://www.daum.net/" target="_blank" rel="noreferrer" class="ico_jobs_af item_opt">다음 포털사이트</a>
+            <a href="https://www.kakao.com/main" target="_blank" rel="noreferrer" class="ico_jobs_af item_opt">카카오
+              서비스</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
