@@ -655,3 +655,129 @@ strong {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.footer_career .inner_footer .area_info {
+  display: flex;
+  font-family: KakaoSmall,맑은 고딕,Malgun Gothic,Apple SD Gothic Neo,돋움,dotum,sans-serif;
+  justify-content: space-between;
+}
+
+.footer_career .info_use {
+  font-size: 0;
+}
+
+.footer_career .info_use .link_info:first-of-type {
+  color: #333;
+  font-weight: 700;
+  margin-right: 24px;
+}
+
+.footer_career .info_use .link_info {
+  color: #888;
+  display: inline-flex;
+  font-size: 14px;
+  letter-spacing: -.4px;
+  line-height: 20px;
+  padding: 12px 0 10px;
+  vertical-align: bottom;
+}
+
+.footer_career .info_use .link_info {
+  color: #888;
+  display: inline-flex;
+  font-size: 14px;
+  letter-spacing: -.4px;
+  line-height: 20px;
+  padding: 12px 0 10px;
+  vertical-align: bottom;
+}
+
+.footer_career .info_use .wrap_select {
+  display: inline-block;
+  height: 42px;
+  padding: 0 14px;
+  position: relative;
+}
+
+.footer_career .info_use .btn_toggle {
+  color: #777;
+  font-family: KakaoSmall,맑은 고딕,Malgun Gothic,Apple SD Gothic Neo,돋움,dotum,sans-serif;
+  font-size: 14px;
+  letter-spacing: -.2px;
+  line-height: 20px;
+  padding: 12px 10px 10px;
+  vertical-align: top;
+}
+
+button {
+  background-color: initial;
+  border: 0;
+  cursor: pointer;
+}
+
+.footer_career .inner_footer .opt_box {
+  background: #eee;
+  border-radius: 18px;
+  bottom: 42px;
+  display: none;
+  left: 0;
+  padding: 16px 24px;
+  position: absolute;
+  z-index: 1;
+}
+
+.footer_career .inner_footer .opt_box .item_opt.en {
+  letter-spacing: 0;
+}
+
+.footer_career .inner_footer .opt_box .item_opt {
+  color: #888;
+  display: block;
+  font-size: 14px;
+  letter-spacing: -.2px;
+  line-height: 20px;
+}
+
+.en .footer_career .inner_footer .info_use .opt_box .item_opt:first-child, .footer_career .inner_footer .info_use .opt_box .item_opt:last-child, .footer_career .inner_footer .opt_box .item_opt:hover {
+  color: #000;
+}
+.footer_career .inner_footer .opt_box .item_opt+.item_opt {
+  margin-top: 8px;
+}
+
+.footer_career .info_use .txt_copyright {
+  color: #888;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+user agent stylesheet
+small {
+  font-size: normal;
+}
+
+.footer_career .inner_footer .info_relation {
+  margin: 12px 0 5px;
+  position: relative;
+}
+
+.footer_career .info_relation .btn_toggle {
+  background: #eee;
+  border-radius: 24px;
+  color: #888;
+  font-family: KakaoSmall,맑은 고딕,Malgun Gothic,Apple SD Gothic Neo,돋움,dotum,sans-serif;
+  font-size: 13px;
+  letter-spacing: -.2px;
+  overflow: hidden;
+  padding: 10px 24px 11px;
+  text-align: left;
+  width: 222px;
+}
+
+.footer_career .info_relation .opt_box .item_opt:last-child {
+  color: #000;
+}
+.footer_career .inner_footer .opt_box .item_opt+.item_opt {
+  margin-top: 8px;
+}
